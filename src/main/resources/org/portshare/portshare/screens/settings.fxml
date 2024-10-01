@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.portshare.portshare.screens.Settings">
+    <children>
+        <VBox prefHeight="272.0" prefWidth="553.0">
+            <children>
+                <Pane prefHeight="54.0" prefWidth="600.0">
+                    <children>
+                        <Label layoutX="247.0" layoutY="18.0" text="Settings" textFill="#dd8f00">
+                            <font>
+                                <Font name="Montserrat SemiBold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Separator layoutX="51.0" layoutY="58.0" prefHeight="1.0" prefWidth="465.0" />
+                    </children>
+                </Pane>
+                <Pane prefHeight="218.0" prefWidth="554.0">
+                    <children>
+                        <Label layoutX="208.0" layoutY="14.0" prefHeight="18.0" prefWidth="145.0" text="Still under construction" textFill="#0f57ff" />
+                        <Label layoutX="214.0" layoutY="100.0" prefHeight="18.0" prefWidth="125.0" text="Nothing to see here" />
+                    </children>
+                </Pane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

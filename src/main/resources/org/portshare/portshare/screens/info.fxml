@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.portshare.portshare.screens.Info">
+    <children>
+        <VBox prefHeight="272.0" prefWidth="553.0">
+            <children>
+                <Pane prefHeight="54.0" prefWidth="600.0">
+                    <children>
+                        <Label layoutX="207.0" layoutY="18.0" text="PortShare Info Hub" textFill="#dd8f00">
+                            <font>
+                                <Font name="Montserrat SemiBold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Separator layoutX="51.0" layoutY="58.0" prefHeight="1.0" prefWidth="465.0" />
+                    </children>
+                </Pane>
+                <Pane prefHeight="218.0" prefWidth="554.0">
+                    <children>
+                        <Label layoutX="208.0" layoutY="14.0" prefHeight="18.0" prefWidth="137.0" text="What is PortShare" textFill="#0f57ff" />
+                        <Label layoutX="29.0" layoutY="32.0" prefHeight="116.0" prefWidth="496.0" text="PortShare is a file sharing app that helps you share files through your mobile hotspot. It was created with Java, JavaFX, and CSS. Visit the Help Hub to learn how to use it." textAlignment="CENTER" wrapText="true" />
+                        <Label layoutX="207.0" layoutY="183.0" prefHeight="18.0" prefWidth="139.0" text="Created by khissdhave" textFill="#3c26e4">
+                     <font>
+                        <Font name="Montserrat Bold" size="11.0" />
+                     </font></Label>
+                    </children>
+                </Pane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

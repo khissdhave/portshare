@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.portshare.portshare.screens.Help">
+    <children>
+        <VBox prefHeight="272.0" prefWidth="553.0">
+            <children>
+                <Pane prefHeight="54.0" prefWidth="600.0">
+                    <children>
+                        <Label layoutX="194.0" layoutY="23.0" text="PortShare Help Hub" textFill="#dd8f00">
+                            <font>
+                                <Font name="Montserrat SemiBold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Separator layoutX="51.0" layoutY="58.0" prefHeight="1.0" prefWidth="465.0" />
+                    </children>
+                </Pane>
+            <Pane prefHeight="218.0" prefWidth="554.0">
+               <children>
+                  <Label layoutX="208.0" layoutY="14.0" prefHeight="18.0" prefWidth="137.0" text="How to use PortShare" textFill="#0f57ff" />
+                  <Label layoutX="29.0" layoutY="32.0" prefHeight="18.0" prefWidth="496.0" text="- Turn your mobile hotspot on your mobile device and connect to your laptop" />
+                  <Label layoutX="119.0" layoutY="54.0" prefHeight="18.0" prefWidth="306.0" text="- Once connected, navigate to the Home screen" />
+                  <Label layoutX="19.0" layoutY="76.0" prefHeight="18.0" prefWidth="516.0" text="- Refresh the WLAN Address section and wait for your WLAN address to be detected" />
+                  <Label layoutX="49.0" layoutY="100.0" prefHeight="18.0" prefWidth="446.0" text="- You will see green &quot;Good&quot; status once your address has been detected." />
+                  <Label layoutX="100.0" layoutY="122.0" prefHeight="18.0" prefWidth="344.0" text="- Now Choose the file you want to share and Click Share" />
+                  <Label layoutX="133.0" layoutY="142.0" prefHeight="18.0" prefWidth="278.0" text="- A QR code will be generated for you to scan" />
+                  <Label layoutX="85.0" layoutY="164.0" prefHeight="18.0" prefWidth="375.0" text="- Once you scan it, your download will begin in your browser " />
+                  <Label layoutX="138.0" layoutY="185.0" prefHeight="18.0" prefWidth="278.0" text="- Click done when the download is completed" />
+               </children>
+            </Pane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

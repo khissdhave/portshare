@@ -1,0 +1,11 @@
+.active-button {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent; /* Default to no border */
+    -fx-border-radius: 20px;
+}
